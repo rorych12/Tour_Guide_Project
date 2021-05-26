@@ -6,7 +6,7 @@
     android:minHeight="@dimen/list_item_height">
 
     <ImageView
-        android:id="@+id/image_placement"
+        android:id="@+id/image"
         android:layout_width="@dimen/list_item_height"
         android:layout_height="@dimen/list_item_height" />
 
@@ -17,7 +17,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/image_placement"
+        android:layout_toRightOf="@+id/image"
         android:paddingLeft="16dp">
 
         <TextView

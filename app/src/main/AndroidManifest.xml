@@ -9,10 +9,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TourGuideProject">
-        <activity android:name=".TraditionsActivity" />
-        <activity android:name=".CampusIconActivity" />
-        <activity android:name=".StadiumActivity" />
-        <activity android:name=".BuildingsActivity" />
+        <activity
+            android:name=".TraditionsActivity"
+            android:label="@string/cat_traditions">
+            <intent-filter>
+                <action android:name="android.intent.action.Main" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CampusIconActivity"
+            android:label="@string/cat_campus">
+            <intent-filter>
+                <action android:name="android.intent.action.Main" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".StadiumActivity"
+            android:label="@string/cat_stadium">
+            <intent-filter>
+                <action android:name="android.intent.action.Main" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".BuildingsActivity"
+            android:label="@string/cat_buildings">
+            <intent-filter>
+                <action android:name="android.intent.action.Main" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

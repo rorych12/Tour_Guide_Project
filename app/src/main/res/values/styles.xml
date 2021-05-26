@@ -4,10 +4,11 @@
     <style name="CategoryTab" parent="Widget.MaterialComponents.TabLayout">
         <item name="tabIndicatorColor">@color/white</item>
         <item name="tabSelectedTextColor">@color/white</item>
-        <item name="tabTextAppearance">@color/black</item>
+        <item name="tabTextAppearance">@color/white</item>
         <item name="tabMaxWidth">0dp</item>
         <item name="tabGravity">fill</item>
         <item name="tabMode">scrollable</item>
+        <item name="android:background">@null</item>
     </style>
 
 </resources>
