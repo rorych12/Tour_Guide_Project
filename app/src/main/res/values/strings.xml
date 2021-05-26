@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Tour Guide Project</string>
+    <string name="main_title">Tour Guide - Texas A&amp;M</string>
+    <string name="cat_buildings">Buildings</string>
+    <string name="cat_campus">Campus Icons</string>
+    <string name="cat_stadium">Stadiums</string>
+    <string name="cat_traditions">Traditions</string>
+
+    <!--Building Names-->
+    <string name="msc">Memorial Student Center</string>
+    <string name="rudder">Rudder Tower</string>
+    <string name="sbisa">Sbisa Dining Hall</string>
+    <string name="academic">Academic Building</string>
+
+    <!--Campus Icon Names-->
+    <string name="fish">Fish Pond</string>
+    <string name="cent_tree">Century Tree</string>
+    <string name="reveille">Reveille Burial Site</string>
+    <string name="quad">Aggie Quad</string>
+
+    <!--Stadium Names-->
+    <string name="kyle">Kyle Field</string>
+    <string name="reed">Reed Arena</string>
+    <string name="olsen">Olsen Field at Blue Bell Park</string>
+    <string name="ellis">Ellis Field</string>
+
+    <!--Tradition Names-->
+    <string name="twelfthman">The 12th Man</string>
+    <string name="yell">Aggie Yells</string>
+    <string name="silvertaps">Silver Taps</string>
+    <string name="muster">Aggie Muster</string>
+</resources>
